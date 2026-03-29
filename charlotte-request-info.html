@@ -92,7 +92,7 @@ footer a:hover { color: #F6C400; }
   .back-link span { display: none; }
 }
 </style>
-<script src="https://www.google.com/recaptcha/api.js?render=6LfSOJ0sAAAAAHVJdpLZutPGjYnmvmZ4KX_4Pdos"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdAaJ0sAAAAAHJ4gCgOw12OMrKJNNh0eSNVZXgI"></script>
 </head>
 <body>
 
@@ -270,7 +270,7 @@ async function submitForm(e) {
   btn.textContent = 'Verifying…';
   btn.disabled = true;
   try {
-    const token = await grecaptcha.execute('6LfSOJ0sAAAAAHVJdpLZutPGjYnmvmZ4KX_4Pdos', { action: 'submit' });
+    const token = await grecaptcha.execute('6LdAaJ0sAAAAAHJ4gCgOw12OMrKJNNh0eSNVZXgI', { action: 'submit' });
     form.querySelector('[name="g-recaptcha-response"]').value = token;
     btn.textContent = 'Sending…';
     const res = await fetch(form.action, {

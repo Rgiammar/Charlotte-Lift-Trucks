@@ -256,7 +256,7 @@ footer { background: #080808; border-top: 2px solid var(--yellow); padding: 56px
   .form-row-2 { grid-template-columns: 1fr; }
 }
 </style>
-<script src="https://www.google.com/recaptcha/api.js?render=6LfSOJ0sAAAAAHVJdpLZutPGjYnmvmZ4KX_4Pdos"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdAaJ0sAAAAAHJ4gCgOw12OMrKJNNh0eSNVZXgI"></script>
 </head>
 <body>
 
@@ -836,7 +836,7 @@ async function submitForm(e, successId) {
   btn.textContent = 'Verifying…';
   btn.disabled = true;
   try {
-    const token = await grecaptcha.execute('6LfSOJ0sAAAAAHVJdpLZutPGjYnmvmZ4KX_4Pdos', { action: 'submit' });
+    const token = await grecaptcha.execute('6LdAaJ0sAAAAAHJ4gCgOw12OMrKJNNh0eSNVZXgI', { action: 'submit' });
     const tokenField = form.querySelector('[name="g-recaptcha-response"]');
     if (tokenField) tokenField.value = token;
     btn.textContent = 'Sending…';
