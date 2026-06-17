@@ -31,9 +31,21 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://charlottelifttrucks.com/become-a-partner.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://charlottelifttrucks.com/blog/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://charlottelifttrucks.com/blog/electric-forklift-charging-infrastructure.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -116,7 +128,7 @@
   </url>
   <url>
     <loc>https://charlottelifttrucks.com/links.html</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
