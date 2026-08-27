@@ -311,6 +311,7 @@ footer { background: #080808; border-top: 2px solid var(--yellow); padding: 56px
     <a href="#area">Service Area</a>
     <a href="blog/index.html">Blog</a>
     <a href="equipment-listings.html">Inventory</a>
+    <a href="become-a-partner.html">Become a Partner</a>
     <a href="request-info.html" class="nav-cta">Get a Free Quote</a>
   </nav>
   <button class="hamburger" id="ham" onclick="toggleNav()" aria-label="Menu">
@@ -326,6 +327,7 @@ footer { background: #080808; border-top: 2px solid var(--yellow); padding: 56px
   <a href="#industries" onclick="toggleNav()">Industries We Serve</a>
   <a href="#area" onclick="toggleNav()">Service Area</a>
   <a href="blog/index.html" onclick="toggleNav()">Blog</a>
+  <a href="become-a-partner.html" onclick="toggleNav()">🤝 Become a Partner</a>
   <a href="request-info.html" class="m-cta" onclick="toggleNav()">📋 Get a Free Quote</a>
   <a href="tel:+17046596976" class="m-cta">📞 Call (704) 659-6976</a>
 </div>
@@ -395,8 +397,8 @@ footer { background: #080808; border-top: 2px solid var(--yellow); padding: 56px
           <input type="email" name="email" placeholder="you@company.com" required>
         </div>
         <div class="form-group">
-          <label for="interest">I'm Interested In</label>
-          <select name="interest" id="interest">
+          <label for="interest">I'm Interested In *</label>
+          <select name="interest" id="interest" required>
             <option value="">Select one…</option>
             <option>Buying a New Forklift</option>
             <option>Buying a Used Forklift</option>
@@ -405,7 +407,6 @@ footer { background: #080808; border-top: 2px solid var(--yellow); padding: 56px
             <option>Multiple Units / Fleet</option>
             <option>Not Sure Yet — Need Advice</option>
           </select>
-          <p style="font-size:0.7rem;color:#8A8A8A;margin-top:5px;line-height:1.5;">Note: We specialize in weekly and longer-term rentals. For single-day needs, we recommend contacting a local rental provider directly.</p>
         </div>
         <div class="form-group">
           <label for="forklift_type">Forklift Type Needed</label>
@@ -546,7 +547,7 @@ footer { background: #080808; border-top: 2px solid var(--yellow); padding: 56px
       <div class="ind-card">
         <div class="ind-icon">🏭</div>
         <div class="ind-name">Manufacturing</div>
-        <div class="ind-desc">Reliable forklifts for production floors, raw materials &amp; finished goods</div> 
+        <div class="ind-desc">Reliable forklifts for production floors, raw materials &amp; finished goods</div>
       </div>
       <div class="ind-card">
         <div class="ind-icon">🚛</div>
@@ -830,8 +831,8 @@ footer { background: #080808; border-top: 2px solid var(--yellow); padding: 56px
         <input type="email" name="email" placeholder="you@company.com" required>
       </div>
       <div class="form-group">
-        <label>I'm Interested In</label>
-        <select name="interest">
+        <label>I'm Interested In *</label>
+        <select name="interest" required>
           <option value="">Select one…</option>
           <option>Buying a New Forklift</option>
           <option>Buying a Used Forklift</option>
@@ -840,7 +841,6 @@ footer { background: #080808; border-top: 2px solid var(--yellow); padding: 56px
           <option>Multiple Units / Fleet</option>
           <option>Not Sure Yet</option>
         </select>
-        <p style="font-size:0.7rem;color:#8A8A8A;margin-top:5px;line-height:1.5;">Note: We specialize in weekly and longer-term rentals. For single-day needs, we recommend contacting a local rental provider directly.</p>
       </div>
       <div class="form-group">
         <label>Additional Details</label>
